@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Ethereum Price Extension",
+    "version": "1.0",
+    "description": "Displays current Ethereum price",
+    "action": {
+      "default_icon": "chromeextension/icon.png",
+      "default_popup": "chromeextension/popup.html"
+    },
+    "host_permissions": [
+      "https://api.coinmarketcap.com/*"
+    ]
+  }
+  
